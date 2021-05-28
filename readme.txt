@@ -1,4 +1,8 @@
- How it works:
+# Working requirement (python 3.8 tested):
+
+conda install -c conda-forge pywin32 pandas jupyterlab
+
+# How it works:
 
 The following calls use pywin32 to connect to Outlook while it is running.
 This allows Python to tap into the Outlook calendar of the first email account.
